@@ -1,5 +1,5 @@
-# undergrad-projects
-A small collection of statistics and mathematics projects/exercises I completed during my undergraduate tenure.  
+<h1>Undergraduate Projects</h1>
+A small collection of statistics and mathematics coding projects I completed during my undergraduate tenure.  
 
 The "undergraduate_projects" folder contains several of these.
 
@@ -16,3 +16,7 @@ The "undergraduate_projects" folder contains several of these.
 "svd_project" uses singular value decomposition to compress Edward Hopper's Nighthawks at four different levels of compression. It also displays a semilog graph of the singular values.
 
 "income_inequality_py_project" Pulls data from census.gov about median incomes per ZIP code. It cleans the data, calculates some basic statistics, displays a histogram of the incomes, and finally calculates and displays a Lorenz curve revealing the extent of income inequality based on the given data. 
+
+"fft_audio_compress.ipynb" is a notebook which loads a .wav file, performs the Fast Fourier Transform on it, filters it for a psuedo-compression at two levels, performs the Inverse Fast Fourier Transform, and returns two listenable .wav files.
+
+"runtime_compare.py" compares the runtime of the Fast Fourier Transform and the Discrete Fourier Transform at multiple sizes.
